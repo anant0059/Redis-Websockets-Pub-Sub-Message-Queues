@@ -1,0 +1,5 @@
+Initialize an empty Node.js project
+npm init -y  
+
+Add tsconfig to it
+npx tsc --init
