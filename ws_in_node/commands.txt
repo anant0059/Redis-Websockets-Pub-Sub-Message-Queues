@@ -3,3 +3,10 @@ npm init -y
 
 Add tsconfig to it
 npx tsc --init
+
+Update tsconfig
+"rootDir": "./src",
+"outDir": "./dist",
+
+install ws
+npm i ws @types/ws
