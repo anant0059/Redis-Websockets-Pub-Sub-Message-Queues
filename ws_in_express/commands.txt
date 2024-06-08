@@ -1,0 +1,24 @@
+// Initialize an empty Node.js project
+npm init -y  
+
+// Add tsconfig to it
+npx tsc --init
+
+// Update tsconfig
+"rootDir": "./src",
+"outDir": "./dist",
+
+// install ws
+npm i ws @types/ws
+
+
+// compile the ts code into the js code:
+tsc
+
+// to run the server:
+tsc -b
+
+node dist/index.js
+
+https://hoppscotch.io/
+ws://localhost:8080
