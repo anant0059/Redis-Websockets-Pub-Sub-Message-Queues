@@ -1,0 +1,12 @@
+npm create vite@latest
+
+framework -> React
+variant -> Typescript
+
+
+npm install
+
+npm run dev
+
+
+https://excalidraw.com/
