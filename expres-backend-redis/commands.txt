@@ -1,0 +1,11 @@
+npm init -y
+npx tsc --init
+
+// Update tsconfig
+"rootDir": "./src",
+"outDir": "./dist",
+
+// make src/index.ts
+
+npm install express @types/express redis
+tsc -b

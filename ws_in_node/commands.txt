@@ -22,3 +22,31 @@ node dist/index.js
 
 https://hoppscotch.io/
 ws://localhost:8080
+
+
+
+Redis:
+
+// start redis locally and start using it as a DB
+docker run --name my-redis -d -p 6379:6379 redis
+
+// connecting to your container
+docker ps -a
+docker exec -it container_id /bin/bash
+//connecting to the redis cli
+redis-
+
+set key value
+get key
+del key
+hset user:100 name "anant" email "anant@gmail.com" age "24"
+hget user:100 name
+hget user:100 email
+hget user:100 age
+lpush problems 1
+lpush problems "{problemId: 1, userId: 2, ...}"
+rpop problems
+
+//block pop
+brpop problems 0 -> blocks for infinite time until any data come
+brpop problems 1 -> blocks for 1 second until any data come
